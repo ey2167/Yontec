@@ -2,8 +2,17 @@ import java.util.Scanner;
 /*Elohe Yonas
  * CSC201 
  * Sat 9:00-12:40
- * 
- * 
+ * the customer will first be asked to insert the money
+ * the options for payment are 1,5,10,25,100,and 500 for coins and bills
+ * pressing 0 confirms money input
+ * the customer will then be told to decide between options 1,2,3,4,and 5
+ * with each option subtracting from your current money input
+ * the customer will buy as much as the money inputted can allow; the
+ * vending machine will not accept the customer purchasing an item that's 
+ * beyond his/her budget.
+ * once his/her purchases are satisfied, the customer will press 7 to finish
+ * the vending machine will then proceed to give change in coins.
+ * the customer enjoys his meal and the vending machine is satisfied with money.
  */
 public class Vending {
 	public static void main(String[]args){
